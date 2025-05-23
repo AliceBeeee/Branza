@@ -123,7 +123,7 @@ def get_gemini_response(prompt):
     # Questo è un trucco comune quando si usano istruzioni di sistema come messaggi utente.
     messages.append({"role": "model", "parts": ["Ok, ho capito. Procediamo."]})
 
-
+a
     # 2. Aggiungi la cronologia della conversazione esistente
     for user_message, model_message in conversation_history:
         messages.append({"role": "user", "parts": [user_message]})
